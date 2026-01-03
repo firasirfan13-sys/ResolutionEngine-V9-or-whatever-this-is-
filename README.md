@@ -36,7 +36,7 @@ Once the shell is running, you can use the following commands:
 
 Since the code utilizes Linux-specific headers (`<unistd.h>`, `<sys/utsname.h>`), it is best compiled on a Linux environment, macOS, or Android (via Termux).
 
-**Using G++:**
+**Using C++:**
 ```bash
 g++ main.cpp -o chaos_core
 ./chaos_core
