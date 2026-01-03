@@ -1,41 +1,31 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# --- Compiled Binaries ---
+*.out
+*.exe
 *.o
 *.obj
+a.out
 
-# Precompiled Headers
-*.gch
-*.pch
+# --- SD/OS Build Files ---
+# This ignores the compiled version of your engine
+chaos_core
+resolution_engine
+sdos_v9
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
+# --- Libraries & Archives ---
 *.a
 *.lib
+*.so
+*.dll
 
-# Executables
-*.exe
-*.out
-*.app
+# --- System & Editor Files ---
+.DS_Store
+Thumbs.db
+.cache/
+.vscode/
+.idea/
+*.swp
+*.save
 
-# debug information files
-*.dwo
+# --- Log & Temporary Files ---
+*.log
+*.tmp
